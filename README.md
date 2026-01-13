@@ -222,7 +222,7 @@ Me:
 ## 📦 TECH STACK PREFERENCES (Override if justified)
 
 ### Frontend
-- **Framework:** Next.js 14+ (App Router)
+- **Framework:** Next.js 16+ (App Router)
 - **Styling:** TailwindCSS + Shadcn/UI
 - **State:** React Query (server) + Zustand (client, if truly necessary)
 - **Forms:** React Hook Form + Zod
