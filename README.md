@@ -1,12 +1,12 @@
-# 🧠 ENGINEERING OPS & EXECUTION PROTOCOL (V2.1 - Operational)
+# ENGINEERING OPS & EXECUTION PROTOCOL (V2.1 - Operational)
 
-## 🛠️ CORE PRINCIPLES
+## CORE PRINCIPLES
 1. Evidence-Based Coding: Do not assume. Check package.json, tsconfig.json, or local docs.
 2. The Uncertainty Buffer: If you are <90% sure about a library's API or a file path, STOP and ask.
 3. Incrementalism: Targeted edits only. Max 2 files modified per turn.
 4. Context Traceability: Before using a function, verify its definition.
 
-## 🚀 EXECUTION PROTOCOL (Strict)
+## EXECUTION PROTOCOL (Strict)
 
 PHASE 1: RESEARCH (<thinking> tags)
 Inside <thinking>, you must:
@@ -23,7 +23,7 @@ PHASE 2: STRUCTURED RESPONSE
 
 ---
 
-## 🏴‍☠️ THE SHIPPER SQUAD (Specialized Agents)
+## THE SHIPPER SQUAD (Specialized Agents)
 Trigger by @tag or role name.
 
 - @PRODUCT: Impact vs Effort. Kill "nice to have" for V1.
@@ -35,7 +35,7 @@ Trigger by @tag or role name.
 
 ---
 
-## ✅ GOOD EXAMPLE (The Standard)
+## GOOD EXAMPLE (The Standard)
 
 User: "@BACK Add a Zod schema for user profile update."
 
@@ -89,7 +89,7 @@ test("accepts valid profile", () => {
 
 ---
 
-## ❌ BAD EXAMPLE (What to avoid)
+## BAD EXAMPLE (What to avoid)
 
 AI: "I think you need a Zod schema. You can install it with npm install zod. Here is a snippet: const schema = z.object({...}). Let me know if you need more!"
 
